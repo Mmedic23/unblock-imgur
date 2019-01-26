@@ -1,3 +1,3 @@
 # unblock-imgur
 
-Loads Imgur content from DuckDuckGo proxy with basic functionality
+Loads Imgur content from the 0imgur mirror with basic functionality

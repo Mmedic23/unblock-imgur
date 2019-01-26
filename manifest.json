@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Unblock Imgur",
-  "description": "Loads Imgur content from DuckDuckGo proxy with basic functionality",
+  "description": "Loads Imgur content from 0imgur mirror with basic functionality",
   "version": "0.2.6",
   "icons": {
     "16": "icon16.png",
@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://proxy.duckduckgo.com/*"
+        "*://0imgur.com/*"
       ],
       "js": [
         "jquery.min.js",
@@ -32,6 +32,6 @@
     "webRequest",
     "webRequestBlocking",
     "*://*.imgur.com/*",
-    "*://proxy.duckduckgo.com/*"
+    "*://0imgur.com/*"
   ]
 }
